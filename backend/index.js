@@ -12,7 +12,7 @@ app.use(bodypracer.json());
 
 app.use(
   cors({
-    origin: "https://country-api-frontend-eight.vercel.app/",
+    origin: "https://country-api-frontend-eight.vercel.app",
     credentials: true,
   })
 );

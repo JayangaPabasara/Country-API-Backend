@@ -6,6 +6,7 @@ import bodypracer from "body-parser"
 import cors from "cors";
 
 dotenv.config();
+
 const app = express();
 app.use(bodypracer.json());
 app.use(cors());

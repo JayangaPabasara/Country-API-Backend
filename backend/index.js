@@ -17,6 +17,10 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+    res.send("<h1>Hello</h1>");
+  });
+
 dbConnection(process.env.MONGO_DB_URI);
 
 app.use("/api/user", userRoute);
